@@ -46,6 +46,23 @@ h1.heading {
   background: radial-gradient(#018dd1, #003d90);
 }
 
+.personal-showcase {
+  height: 700px;
+  background: url("./images/personal/Personal_Hero.jpg") no-repeat right/cover;
+}
+
+.personal-showcase .overlay {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.active {
+  @apply text-blue-600 font-bold border-blue-600;
+}
+
 @media (min-width: 1440px) {
   .hero {
     background: url("./images/homepage/hero-banner.jpg") no-repeat center/cover;
