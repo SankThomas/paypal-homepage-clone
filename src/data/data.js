@@ -77,3 +77,22 @@ export const section2 = [
     image: "./images/homepage/3-pd.jpg",
   },
 ];
+
+export const payments = [
+  {
+    desc: "Your customers visit your website and choose their items.",
+    image: "./images/onlinepayments/screen1.png",
+  },
+  {
+    desc: "They log in to their PayPal accounts.",
+    image: "./images/onlinepayments/screen2.png",
+  },
+  {
+    desc: "They confirm their purchases.",
+    image: "./images/onlinepayments/screen3.png",
+  },
+  {
+    desc: "That’s all!!",
+    image: "./images/onlinepayments/screen4.png",
+  },
+];
