@@ -13,6 +13,18 @@ body {
   font-family: "Mukta", sans-serif;
 }
 
+/* ::-webkit-scrollbar {
+  @apply w-3;
+}
+
+::-webkit-scrollbar-track {
+  @apply shadow rounded-lg bg-slate-600;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-900 rounded-lg hover:bg-slate-800 transition-all duration-200;
+} */
+
 img {
   max-width: 100%;
 }
@@ -61,6 +73,66 @@ h1.heading {
 
 .active {
   @apply text-blue-600 font-bold border-blue-600;
+}
+
+.payonline-hero {
+  height: 600px;
+  background: url("./images/payonline/buy_onwebsites_hero_bg_1x.jpg") no-repeat
+    center/cover;
+}
+
+.payonline-hero .overlay {
+  height: 600px;
+}
+
+.imagegrid-hero {
+  height: 500px;
+  background: url("./images/payonline/buy_onwebsites_n1_1x.jpg") no-repeat
+    center/cover;
+}
+
+.imagegrid-hero .overlay {
+  height: 500px;
+}
+
+.imagegrid-hero-two {
+  background: url("./images/payonline/buy_onwebsites_n4_1x.jpg") no-repeat
+    center/cover;
+}
+
+.sendpayments-hero {
+  background: url("./images/sendpayments/send_hero_bg_1x.jpg") no-repeat
+    center/cover;
+}
+
+.sendgrid-hero {
+  background: url("./images/sendpayments/send_n1_1x.jpg") no-repeat center/cover;
+}
+
+.mobile-apps {
+  background: linear-gradient(90deg, #018cd2, #014798);
+}
+
+.merchant-hero {
+  background: url("./images/merchant/merchant_herobanner.jpg") no-repeat
+    center/cover;
+}
+
+.merchant-hero .overlay {
+  height: 600px;
+}
+
+.merchant-hero-two {
+  background: url("./images/merchant/merchant-freelancers.jpg") no-repeat
+    center/cover;
+}
+
+.onlinepayments-hero {
+  background: url("./images/onlinepayments/hero.jpg") no-repeat center/cover;
+}
+
+.zebra ul li:nth-child(odd) {
+  @apply bg-slate-100;
 }
 
 @media (min-width: 1440px) {
