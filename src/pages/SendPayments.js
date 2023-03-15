@@ -1,5 +1,14 @@
 import React from "react";
+import Hero from "./sendpayments/Hero";
+import ImageGrids from "./sendpayments/ImageGrids";
+import WaysToPay from "./sendpayments/WaysToPay";
 
 export default function SendPayments() {
-  return <div>SendPayments</div>;
+  return (
+    <>
+      <Hero />
+      <WaysToPay />
+      <ImageGrids />
+    </>
+  );
 }
