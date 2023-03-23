@@ -135,6 +135,16 @@ h1.heading {
   @apply bg-slate-100;
 }
 
+.convert-hero {
+  background: url("./images/invoices/shutterstock-editorial.jpg") no-repeat
+    center/cover;
+}
+
+.freelancers-hero {
+  background: url("./images/freelancers/hero-banner-freelancers-ke.jpg")
+    no-repeat center/cover;
+}
+
 @media (min-width: 1440px) {
   .hero {
     background: url("./images/homepage/hero-banner.jpg") no-repeat center/cover;
