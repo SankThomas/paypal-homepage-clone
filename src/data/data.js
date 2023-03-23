@@ -96,3 +96,22 @@ export const payments = [
     image: "./images/onlinepayments/screen4.png",
   },
 ];
+
+export const howItWorks = [
+  {
+    desc: "You create an invoice and send it to your customer.",
+    image: "./images/invoices/step-1.png",
+  },
+  {
+    desc: "Your customer receives the email invoice and clicks on the PayPal checkout button.",
+    image: "./images/invoices/step-2.png",
+  },
+  {
+    desc: "By clicking, they’re sent to the PayPal website where they can review and print the invoice details.",
+    image: "./images/invoices/step-3.png",
+  },
+  {
+    desc: "They choose to pay the full amount, complete the transaction and receive confirmation of payment.",
+    image: "./images/invoices/step-4.png",
+  },
+];
