@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 import {
   AcceptOnlinePayments,
   Error,
@@ -17,12 +18,15 @@ import {
   SendPayments,
   Shopping,
   SignUp,
+  PersonalAccount,
+  BusinessAccount,
 } from "./pages";
 
 export default function App() {
   return (
     <>
       <BrowserRouter>
+        <Navbar />
         <Routes>
           <Route path="/" element={<Homepage />}></Route>
           <Route path="/personal" element={<Personal />}></Route>
@@ -44,6 +48,8 @@ export default function App() {
           ></Route>
           <Route path="/login" element={<Login />}></Route>
           <Route path="/sign-up" element={<SignUp />}></Route>
+          <Route path="/personal-account" element={<PersonalAccount />}></Route>
+          <Route path="/business-account" element={<BusinessAccount />}></Route>
           <Route path="*" element={<Error />}></Route>
         </Routes>
 
