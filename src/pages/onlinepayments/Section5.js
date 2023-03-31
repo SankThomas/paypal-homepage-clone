@@ -12,7 +12,7 @@ export default function Section5() {
         </h2>
 
         <div className="text-center grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-          <articles>
+          <article>
             <img src={icon1} alt="" className="block mx-auto mb-4" />
             <h3 className="text-slate-700 text-2xl lg:text-3xl mb-6 font-light">
               Quicker checkout
@@ -21,8 +21,8 @@ export default function Section5() {
               They don't need to retype their credit card details every time
               they shop.
             </p>
-          </articles>
-          <articles>
+          </article>
+          <article>
             <img src={icon2} alt="" className="block mx-auto mb-4" />
             <h3 className="text-slate-700 text-2xl lg:text-3xl mb-6 font-light">
               Accept International Payments
@@ -30,8 +30,8 @@ export default function Section5() {
             <p className="text-slate-600">
               They can choose to pay in any of the 25 currencies accepted.
             </p>
-          </articles>
-          <articles>
+          </article>
+          <article>
             <img src={icon3} alt="" className="block mx-auto mb-4" />
             <h3 className="text-slate-700 text-2xl lg:text-3xl mb-6 font-light">
               Increase Conversion Rates
@@ -40,7 +40,7 @@ export default function Section5() {
               They see the PayPal logo as a sign of trust. 34% of online buyers
               wouldn't buy on a website if PayPal wasn’t there.*
             </p>
-          </articles>
+          </article>
         </div>
 
         <p className="text-center text-sm mt-8 text-slate-600">
