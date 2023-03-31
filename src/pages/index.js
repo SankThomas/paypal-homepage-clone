@@ -13,6 +13,8 @@ import SendInvoice from "./SendInvoice";
 import SendPayments from "./SendPayments";
 import Shopping from "./Shopping";
 import SignUp from "./SignUp";
+import PersonalAccount from "./signup/PersonalAccount";
+import BusinessAccount from "./signup/BusinessAccount";
 
 export {
   AcceptOnlinePayments,
@@ -30,4 +32,6 @@ export {
   SendPayments,
   Shopping,
   SignUp,
+  PersonalAccount,
+  BusinessAccount,
 };
