@@ -39,6 +39,23 @@ p {
   @apply py-3 px-8 rounded-full shadow text-white w-full hover:bg-blue-700 transition-all duration-200 sm:w-auto sm:px-20 lg:px-40;
 }
 
+.navbar {
+  position: fixed;
+  left: -100vw;
+  @apply transition-all duration-200 text-white w-full top-0 p-8;
+}
+
+.navbar.open {
+  left: 0;
+  /* I've removed the background opacity on the navbar */
+  background: radial-gradient(#018dd1, #003d90);
+  @apply top-0 left-0 right-0 bottom-0 z-50;
+}
+
+.navbar ul li a {
+  @apply text-sm;
+}
+
 h1.heading {
   font-family: "Oswald", sans-serif;
   font-style: italic;
@@ -150,6 +167,25 @@ h1.heading {
   background: url("./images/partners/Partner-Developers-Page_Website-hero.jpg")
     no-repeat center/cover;
 }
+
+/* Enable this part to have the desktop navigation, and try to fix it */
+/* @media (min-width: 1024px) {
+  .navbar {
+    position: relative;
+    left: 0;
+    @apply transition-all duration-200 text-white w-auto top-0 lg:p-0;
+  }
+
+  .navbar.open {
+    left: 0;
+    background: none;
+    @apply top-0 left-0 right-0 bottom-0 z-auto;
+  }
+
+  .links {
+    display: none;
+  }
+} */
 
 @media (min-width: 1440px) {
   .hero {
